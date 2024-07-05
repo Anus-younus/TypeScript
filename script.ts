@@ -121,3 +121,96 @@
         
 //     }
 // }
+
+
+
+
+// type Obj = {
+//     name: string,
+//     email: string,
+//     password: string,
+//     gender?: true
+// }
+
+
+
+// let obj: Obj = {
+//     name: "Anus",
+//     email: "anusyounus@gmail.com",
+//     password: "anus1234"
+// }
+
+// console.log(obj)
+
+// enum Car {
+//     name = "Mehran",
+//     model = 2005,
+//     varient = "HCR",
+//     fuelAverage = "160km"
+// }
+
+
+// let fruits: [string, string, string]
+
+// fruits = ["Apple", "Mango", "Banana"];
+
+// console.log(fruits);
+
+
+// let array: (string | number)[] = ["Apple", "Mango", 122]
+
+// let x = prompt("Enter your name");
+
+// let userName: string = (x as string)
+
+
+
+// interface Users {
+//     name: string,
+//     email: string,
+//     password: string
+// }
+
+// class User implements Users {
+//     name
+//     email
+//     password
+//     constructor(userName: string, email: string, password: string){
+//         this.name = userName,
+//         this.email = email,
+//         this.password = password
+//     }
+//     gender = true
+// }
+
+// let user1 = new User("Anus", "anusyonus@gmial.com", "anus123")
+// let user2 = new User("Owais", "owaisyonus@gmial.com", "owais123")
+
+// console.log(user1, user2);
+
+
+
+// interface Vehical {
+//     name: string,
+//     model: string
+// }
+
+// interface Car extends Vehical {
+//     wheeles: number
+// }
+
+// interface Bike extends Vehical {
+//     wheels: number
+// }
+
+// let car: Car = {
+//     name: "Mehran",
+//     model: "2005",
+//     wheeles: 4
+// } 
+
+// let bike: Bike = {
+//     name: "super star",
+//     model: "2006",
+//     wheels: 2
+// }
